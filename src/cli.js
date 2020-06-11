@@ -4,7 +4,6 @@ const { add } = require('./commands/add');
 const { status } = require('./commands/status');
 const { commitPush } = require('./commands/commitPush');
 const { remote } = require('./commands/remote');
-const { help } = require('./commands/help');
 const { findCommand } = require('./commands/findCommand');
 const meow = require('meow');
 const chalk = require('chalk');
@@ -48,11 +47,11 @@ const cli = meow(`
         },
         commitPush: {
             type: 'boolean',
-            alias: 'cp'
+            alias: 'c'
         },
-        help: {
+        version: {
             type: 'boolean',
-            alias: 'h'
+            alias: 'v'
         }
     }
 });
@@ -64,7 +63,6 @@ const options = {
     status : () => status(),
     add : () => add(),
     commitPush : () => commitPush(),
-    help : () => help()
 }
 
 findCommand(cli,options);
