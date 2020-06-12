@@ -16,7 +16,10 @@
     "chalk": "^4.1.0",
     "execa": "^4.0.2",
     "inquirer": "^7.1.0",
+    "inquirer-maxlength-input-prompt": "^1.0.0",
     "meow": "^7.0.1",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.4",
     "parse-git-status": "^0.1.0"
   }
 }
