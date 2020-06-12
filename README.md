@@ -1,7 +1,7 @@
 ### ig - Interactive Git CLI
 
 ```
-    $Usage
+        $Usage
             $ ig
 
         $Options
