@@ -8,8 +8,8 @@ const questions = [
     {
         type: 'list',
         name: 'statusType',
-        message: 'Choose Type of Status',
-        choices: ['short','long','porcelain v1','porcelain v2']
+        message: 'Choose Type of Status:',
+        choices: ['long','short','porcelain v1','porcelain v2']
     }
 ]
 
