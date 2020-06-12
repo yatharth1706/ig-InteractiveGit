@@ -34,6 +34,9 @@ function status() {
                         stdio: 'inherit'
                     });
                     
+                    if(stdout){
+                        console.log("Your branch is upto date! Nothing to Commit !!");
+                    }
                 }
             )();
         }catch(error){
