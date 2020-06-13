@@ -9,7 +9,8 @@ function gitignore() {
     // first check whether gitignore file exists or not
     // if it exists then we need to append file name else we will create a file and append files
     const dir = process.cwd() + '\\';
-    fs.exists(dir + ".gitignore", (exists) => {
+    const fileName = dir + ".gitignore";
+    fs.exists(fileName, (exists) => {
         if(exists){
             inquirer.prompt([
                 {
@@ -24,11 +25,12 @@ function gitignore() {
                         {
                             type: 'input',
                             name: 'gitignoreData',
-                            message: 'Enter data to write in .gitignore file',
+                            message: 'Enter data to write in .gitignore file:',
 
                         }
                     ]).then((answers) => {
-                        console.log(answers);
+                        fs.appendFileSync(fileName, answers.gitignoreData);
+                        console.log(chalk.blueBright("Added data successfully to .gitignore file!!"))
                     })
                 }else{
                     console.log(chalk.yellow("Good Bye!!"));
@@ -45,7 +47,18 @@ function gitignore() {
                 }
             ]).then((answers) => {
                 if(answers.fileConfirm == true){
-                    
+                    inquirer.prompt([
+                        {
+                            type: 'input',
+                            name: 'gitignoreData',
+                            message: 'Enter data to write in .gitignore file:',
+
+                        }
+                    ]).then((answers) => {
+                        fs.writeFileSync(fileName, answers.gitignoreData);
+                        console.log(chalk.blueBright("Created .gitignore file succesfully!"));
+                    })
+   
                 }else{
                     console.log(chalk.yellow("Good Bye!!"));
                 }
