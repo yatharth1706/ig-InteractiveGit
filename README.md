@@ -1,6 +1,14 @@
 ### igm - Interactive Git Modified CLI
 Interactive Git CLI easy to use.
 
+### Install
+
+```
+    npm install -g igm
+```
+
+### Usage
+
 ```
         $Usage
             $ igm
