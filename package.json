@@ -1,6 +1,6 @@
 {
   "name": "igm",
-  "version": "1.5.0",
+  "version": "2.5.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -9,9 +9,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "igm",
+    "interactive git",
+    "yatharth",
+    "easygit",
+    "modified git",
+    "easy to use git",
+    "git interactive",
+    "ig",
+    "igm git",
+    "i",
+    "git",
+    "g"
+  ],
+  "author": "Yatharth Verma",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatharth1706/ig-InteractiveGit.git"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "execa": "^4.0.2",
