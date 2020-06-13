@@ -1,5 +1,5 @@
 ### igm - Interactive Git Modified CLI
-Interactive CLI easy to use.
+Interactive Git CLI easy to use.
 
 ```
         $Usage
