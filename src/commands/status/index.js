@@ -8,7 +8,7 @@ const questions = [
     {
         type: 'list',
         name: 'statusType',
-        message: chalk.magenta("Choose Type of Status: "),
+        message: chalk.yellowBright("Choose Type of Status: "),
         choices: ['long','short','porcelain v1','porcelain v2']
     }
 ]

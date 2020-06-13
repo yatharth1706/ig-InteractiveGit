@@ -1,14 +1,14 @@
 const execa = require('execa');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
-const choices = ['Add all files', 'Specific File'];
+const choices = ['All files', 'Specific File'];
 
 const questions = [
     {
         type: 'list',
         name: 'addType',
         choices: choices,
-        message: 'What you want to Add? ',
+        message: chalk.yellowBright("What you want to Add?"),
         default: choices[0],
     }
 ]
@@ -24,7 +24,7 @@ function add() {
                             stdout: "inherit"
                         })
         
-                        console.log(chalk.yellow("Added All files Yayy!!"));
+                        console.log(chalk.blueBright("Added All files Yayy!!"));
                     }
                 )();
             }catch(error){
@@ -45,7 +45,7 @@ function add() {
                                 stdout: "inherit"
                             })
             
-                            console.log(chalk.yellow(`Added ${answers.fileName} yay!!`));
+                            console.log(chalk.blueBright(`Added ${answers.fileName} yay!!`));
                         }
                     )();
                 }catch(error){

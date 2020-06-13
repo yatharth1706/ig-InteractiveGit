@@ -87,7 +87,10 @@ function commitPush() {
                 }
                         
             })
-        })   
+        }).catch((error) => {
+            emojisSpinner.succeed();
+            console.log("Internet Connection Problem!!");
+        })  
 
     }catch(error){
         console.log(error);
