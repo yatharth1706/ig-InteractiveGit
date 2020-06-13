@@ -19,7 +19,7 @@ const cli = meow(`
             --remote, -r, Add remote git url
             --status, -s Shows changes of your git project
             --add, -a Add all changes to staging area
-            --commitPush, Commit and Push to github Remote Repository
+            --commitPush, -c Commit and Push to github Remote Repository
             --help, -h Shows help for all commands
 
         ${chalk.cyan("Examples")}
