@@ -1,8 +1,8 @@
-### ig - Interactive Git CLI
+### igm - Interactive Git Modified CLI
 
 ```
         $Usage
-            $ ig
+            $ igm
 
         $Options
             --init, -i, Initialize git repository
@@ -13,8 +13,8 @@
             --help, -h Shows help for all commands
 
         $Examples
-            $ ig -h
-            $ ig -a
-            $ ig -c
+            $ igm -h
+            $ igm -a
+            $ igm -c
 ```
 

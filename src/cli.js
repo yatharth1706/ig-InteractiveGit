@@ -12,7 +12,7 @@ const chalk = require('chalk');
 
 const cli = meow(`
         ${chalk.cyan("Usage")}
-            $ ig
+            $ igm
 
         ${chalk.cyan("Options")}
             --init, -i, Initialize git repository
@@ -23,9 +23,9 @@ const cli = meow(`
             --help, -h Shows help for all commands
 
         ${chalk.cyan("Examples")}
-            $ ig -h
-            $ ig -a
-            $ ig -c
+            $ igm -h
+            $ igm -a
+            $ igm -c
 `,
 {
     flags: {
