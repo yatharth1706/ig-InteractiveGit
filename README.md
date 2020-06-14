@@ -37,3 +37,11 @@
             $ igm -c
 ```
 
+### Tools Used
+
+1. nodejs 
+2. meow
+3. execa
+4. inquirer
+5. node-fetch
+6. ora
