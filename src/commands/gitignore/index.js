@@ -25,11 +25,22 @@ function gitignore() {
                         {
                             type: 'input',
                             name: 'gitignoreData',
-                            message: 'Enter data to write in .gitignore file:',
+                            message: `Enter data to write in .gitignore file: (${chalk.red("add spaces for multiple files")})`,
+                            validate: (input) => {
+                                if(!input){
+                                    return chalk.red("Please enter valid commit message!");
+                                }
 
+                                return true;
+                            }
                         }
                     ]).then((answers) => {
-                        fs.appendFileSync(fileName, answers.gitignoreData);
+                        let ignoredData = "\n";
+                        for(let i=0;i<answers.gitignoreData.length;i++){
+                           ignoredData+=(answers.gitignoreData[i]==' ') ? '\n' : answers.gitignoreData[i];
+                        }
+                      
+                        fs.appendFileSync(fileName, ignoredData);
                         console.log(chalk.blueBright("Added data successfully to .gitignore file!!"))
                     })
                 }else{
@@ -51,11 +62,22 @@ function gitignore() {
                         {
                             type: 'input',
                             name: 'gitignoreData',
-                            message: 'Enter data to write in .gitignore file:',
+                            message: `Enter data to write in .gitignore file: (${chalk.red("add spaces for multiple files")})`,
+                            validate: (input) => {
+                                if(!input){
+                                    return chalk.red("Please enter valid commit message!");
+                                }
 
+                                return true;
+                            }
                         }
                     ]).then((answers) => {
-                        fs.writeFileSync(fileName, answers.gitignoreData);
+                        let ignoredData = "\n";
+                        for(let i=0;i<answers.gitignoreData.length;i++){
+                           ignoredData+=(answers.gitignoreData[i]==' ') ? '\n' : answers.gitignoreData[i];
+                        }
+                      
+                        fs.writeFileSync(fileName, ignoredData);
                         console.log(chalk.blueBright("Created .gitignore file succesfully!"));
                     })
    
