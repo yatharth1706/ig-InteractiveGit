@@ -1,5 +1,12 @@
 ### igm - Interactive Git Modified CLI
-Interactive Git CLI easy to use.
+
+[![npm version](https://img.shields.io/npm/v/igm.svg?style=flat-square)](https://www.npmjs.com/package/igm)
+[![npm downloads](https://img.shields.io/npm/dt/igm.svg?style=flat-square)](https://www.npmjs.com/package/igm)
+[![GitHub stars](https://img.shields.io/github/stars/yatharth1706/ig-InteractiveGit)](https://github.com/yatharth1706/ig-InteractiveGit/stargazers)
+[![David Dependencies](https://img.shields.io/david/yatharth1706/ig-InteractiveGit.svg?style=flat-square)](https://david-dm.org/yatharth1706/ig-InteractiveGit)
+[![GitHub issues](https://img.shields.io/github/issues/yatharth1706/ig-InteractiveGit)](https://github.com/yatharth1706ig-InteractiveGit/issues)
+
+:package: Interactive Git CLI easy to use.
 
 ### Install
 
