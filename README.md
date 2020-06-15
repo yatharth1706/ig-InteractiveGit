@@ -39,12 +39,12 @@
 
 ### :wrench: Tools Used
 
-1. nodejs 
-2. meow
-3. execa
-4. inquirer
-5. node-fetch
-6. ora
+- [Nodejs](https://nodejs.org/en/docs/) 
+- [Meow - CLI App helper](https://www.npmjs.com/package/meow)
+- [Execa](https://www.npmjs.com/package/execa)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [Node-fetch](https://www.npmjs.com/package/node-fetch)
+- [ora](https://www.npmjs.com/package/ora)
 
 ## :octocat: Author
 
