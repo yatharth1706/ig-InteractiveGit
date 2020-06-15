@@ -8,7 +8,7 @@
 
 :package: Interactive Git CLI easy to use.
 
-### Install
+### :floppy_disk: Installation
 
 ```
     npm install -g igm
@@ -37,7 +37,7 @@
             $ igm -c
 ```
 
-### Tools Used
+### :wrench: Tools Used
 
 1. nodejs 
 2. meow
@@ -45,3 +45,11 @@
 4. inquirer
 5. node-fetch
 6. ora
+
+## :octocat: Author
+
+- **[Yatharth Verma](https://yatharth1706.github.io)**
+- yatharthverma070@gmail.com
+
+Give the project a :star: if you liked it.
+Made with :heart: and Nodejs.
