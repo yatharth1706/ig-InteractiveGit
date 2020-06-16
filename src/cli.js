@@ -10,6 +10,7 @@ const { remote } = require('./commands/remote');
 const { findCommand } = require('./commands/findCommand');
 const meow = require('meow');
 const chalk = require('chalk');
+const pull = require('./commands/pull');
 
 // syntax: meow(helpText, options?)
 
@@ -83,7 +84,8 @@ const options = {
     commitPush : () => commitPush(),
     commit: () => commit(),
     push: () => push(),
-    gitignore: () => gitignore()
+    gitignore: () => gitignore(),
+    pull: () => pull()
 }
 
 findCommand(cli,options);
