@@ -38,11 +38,15 @@
             $ igm -c
 ```
 
-### Tools Used
+### :wrench: Tools Used
 
-1. nodejs 
-2. meow
-3. execa
-4. inquirer
-5. node-fetch
-6. ora
+- [Nodejs](https://nodejs.org/en/docs/)
+- [Meow - CLI App Helper](https://www.npmjs.com/package/meow)
+- [Execa - Execution of commands on Terminal](https://www.npmjs.com/package/execa)
+- [Inquirer - Terminal Prompts](https://www.npmjs.com/package/inquirer)
+- [Node-fetch - Network Requests](https://www.npmjs.com/package/node-fetch)
+- [Ora - Terminal Spinner](https://www.npmjs.com/package/ora)
+
+
+Give the project a :star: if you liked it.
+Made with :heart: and Nodejs.
