@@ -29,6 +29,7 @@
             --gitignore, -g Creates a gitignore file
             --commitPush, -c Commit and Push to github Remote Repository
             --help, -h Shows help for all commands
+            --pull, -u Pull changes from git remote repository
 
         $Examples
             $ igm -h
