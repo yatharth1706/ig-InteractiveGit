@@ -3,11 +3,12 @@
 [![npm version](https://img.shields.io/npm/v/igm.svg?style=flat-square)](https://www.npmjs.com/package/igm)
 [![npm downloads](https://img.shields.io/npm/dt/igm.svg?style=flat-square)](https://www.npmjs.com/package/igm)
 [![GitHub stars](https://img.shields.io/github/stars/yatharth1706/ig-InteractiveGit)](https://github.com/yatharth1706/ig-InteractiveGit/stargazers)
+[![David Dependencies](https://img.shields.io/david/yatharth1706/ig-InteractiveGit.svg?style=flat-square)](https://david-dm.org/yatharth1706/ig-InteractiveGit)
 [![GitHub issues](https://img.shields.io/github/issues/yatharth1706/ig-InteractiveGit)](https://github.com/yatharth1706ig-InteractiveGit/issues)
 
 :package: Interactive Git CLI easy to use.
 
-### :floppy_disk: Installation
+### Install
 
 ```
     npm install -g igm
@@ -36,19 +37,11 @@
             $ igm -c
 ```
 
-### :wrench: Tools Used
+### Tools Used
 
-- [Nodejs](https://nodejs.org/en/docs/) 
-- [Meow - CLI App helper](https://www.npmjs.com/package/meow)
-- [Execa](https://www.npmjs.com/package/execa)
-- [Inquirer](https://www.npmjs.com/package/inquirer)
-- [Node-fetch](https://www.npmjs.com/package/node-fetch)
-- [ora](https://www.npmjs.com/package/ora)
-
-## :octocat: Author
-
-- **[Yatharth Verma](https://yatharth1706.github.io)**
-- yatharthverma070@gmail.com
-
-Give the project a :star: if you liked it.
-Made with :heart: and Nodejs.
+1. nodejs 
+2. meow
+3. execa
+4. inquirer
+5. node-fetch
+6. ora
